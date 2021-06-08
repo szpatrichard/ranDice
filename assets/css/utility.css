@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+
+* {
+	box-sizing: border-box;
+	color: #fff;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: hsl(28, 21%, 45%);
+	background: url("../images/background.jpeg") no-repeat fixed center;
+	background-size: cover;
+	backdrop-filter: blur(1rem) grayscale(0.5);
+	min-height: 100vh;
+	position: relative;
+}
+
+header {
+	text-shadow: 1px 1px 1px #000000;
+}
+
+footer {
+	padding-top: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+a > * {
+	transition-duration: 200ms;
+}
+
+a > *:hover {
+	color: rgba(255, 127, 22, 0.7);
+}
+
+input,
+select,
+select option {
+	border: none;
+	color: #000;
+	font-size: 1rem;
+	padding: 0.4rem 1rem;
+	outline: none;
+	width: 100px;
+	text-align: center;
+	text-shadow: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	text-align-last: center;
+}
+
+button {
+	background: #048c01;
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 700;
+	margin: 2rem;
+	text-transform: uppercase;
+	transition-duration: 200ms;
+	padding: 0.4rem 1rem;
+}
+
+button:hover {
+	background: #05c202;
+	border-radius: 0;
+}
