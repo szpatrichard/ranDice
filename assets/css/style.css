@@ -118,7 +118,7 @@
 	.main-container,
 	.footer-container,
 	.rando-wrapper {
-		padding: 0;
+		padding: 1rem 0;
 	}
 
 	.output {
