@@ -1,7 +1,7 @@
 class Dice {
 	results = [];
 
-	constructor(sides = 4, amount = 1) {
+	constructor(sides, amount) {
 		if (sides > 0 && amount > 0) {
 			this._sides = sides;
 			this._amount = amount;

@@ -75,6 +75,8 @@
 }
 
 .footer-container {
+	display: flex;
+	justify-content: space-between;
 	padding: 2rem;
 	position: absolute;
 	right: 0;
@@ -90,6 +92,15 @@
 	.footer-container,
 	.rando-wrapper {
 		padding: 1rem;
+	}
+
+	.header-container {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.header-container > span {
+		margin: 0;
 	}
 
 	.output > div {

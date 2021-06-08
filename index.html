@@ -7,14 +7,25 @@
 
 		<link rel="stylesheet" href="./assets/css/utility.css" />
 		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link
+			rel="shortcut icon"
+			href="./assets/images/favicon.ico"
+			type="image/x-icon"
+		/>
+
 		<script src="./assets/js/main.js" type="module" defer></script>
-		<title>randoDice</title>
+		<script
+			src="https://kit.fontawesome.com/8948623784.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+		<title>ranDice</title>
 	</head>
 	<body>
 		<header>
 			<div class="container header-container">
 				<a href="./index.html">
-					<h1>randoDice</h1>
+					<h1>ranDice</h1>
 				</a>
 				<span>Rolling dice</span>
 			</div>
@@ -45,7 +56,7 @@
 						<div class="row">
 							<select name="sides" id="sides">
 								<option value="4">d4</option>
-								<option value="6">d6</option>
+								<option value="6" selected>d6</option>
 								<option value="8">d8</option>
 								<option value="10">d10</option>
 								<option value="12">d12</option>
@@ -63,7 +74,15 @@
 
 		<footer>
 			<div class="container footer-container">
-				P. Richárd Szilágyi, 2021
+				<div>P. Richárd Szilágyi, 2021</div>
+				<div>
+					<a
+						href="https://github.com/szpricky/ranDice"
+						target="_blank"
+					>
+						<i class="fab fa-github"></i>
+					</a>
+				</div>
 			</div>
 		</footer>
 	</body>

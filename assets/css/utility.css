@@ -48,6 +48,18 @@ select option {
 	width: 100px;
 	text-align: center;
 	text-shadow: none;
+	transition-duration: 150ms;
+}
+
+input:hover,
+select:hover,
+select:focus {
+	background: rgb(240, 216, 108);
+}
+
+input:active,
+select:active {
+	background: rgba(255, 210, 10, 0.801);
 }
 
 input::-webkit-outer-spin-button,
@@ -84,4 +96,8 @@ button {
 button:hover {
 	background: #05c202;
 	border-radius: 0;
+}
+
+.fab {
+	font-size: 1.4rem;
 }
