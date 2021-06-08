@@ -112,3 +112,21 @@
 		transform: translateY(-0.4rem);
 	}
 }
+
+@media (max-width: 375px) {
+	.header-container,
+	.main-container,
+	.footer-container,
+	.rando-wrapper {
+		padding: 0;
+	}
+
+	.output {
+		font-size: 2.6rem;
+	}
+
+	.output > div {
+		width: 4rem;
+		height: 4rem;
+	}
+}
