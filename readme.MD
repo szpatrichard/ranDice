@@ -1,5 +1,7 @@
 # Random number generator web app
 
+[Live Demo](https://randice.vercel.app/)
+
 ## Introduction
 
 There are various use cases for a Random Number Generator. You could do a random dice roll or get a random quote. Most of the time, the implementation is relatively straightforward and similar to this project’s approach. In this project, we will create a dice roll simulation.
